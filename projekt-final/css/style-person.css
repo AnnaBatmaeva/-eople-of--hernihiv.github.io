@@ -1,0 +1,60 @@
+.category-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.category-img-tekst{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.category-img img{
+    width: 100%;
+}
+.category-tekst{
+    margin-right: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+.category-hx{
+    font-size: 1.6rem;
+    font-family: "social-gothic", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.category-hx span{
+    font-size: 57px;
+    color: #8C1212;
+    font-weight: 700;
+}
+.category-tekst-description{
+    font-size: 22px;
+    font-family: "social-gothic", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+@media (max-width: 1050px){
+    .category-img-tekst{
+        display: block;
+    }
+}
+@media (max-width: 480px){
+    .category-container{
+        margin-left: 2rem;
+        margin-right: 2rem;
+}
+}
+.person-img{
+    display: ruby-text;
+}
+.person-portraits img{
+    margin-top: 3rem;
+    width: 100%;
+}
+@media (max-width: 480px){
+    .person-img{
+           margin-bottom: 3rem;
+    }
+    .category-img-tekst{
+        margin-top: 3rem;
+    }
+}

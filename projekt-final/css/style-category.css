@@ -1,0 +1,45 @@
+.category-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.category-img-tekst{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.category-img img{
+    width: 100%;
+}
+.category-tekst{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.category-hx{
+    font-size: 1.6rem;
+    font-family: "social-gothic", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+.category-hx h2{
+    margin: 0;
+}
+.category-hx span{
+    color: #8C1212;
+}
+.category-tekst-description{
+    font-size: 22px;
+    font-family: "social-gothic", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+@media (max-width: 1050px){
+    .category-img-tekst{
+        display: block;
+    }
+}
+@media (max-width: 480px){
+    .category-container{
+        margin-left: 0;
+        margin-right: 0;
+}
+}
